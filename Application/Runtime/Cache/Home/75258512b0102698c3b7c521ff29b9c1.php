@@ -1,0 +1,199 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+
+
+<meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+        <title>用户登录</title>
+        <link rel="stylesheet" href="/sign/Public/weui.min.css"/>
+     
+
+<script type="text/javascript" src="/sign/Public/weui.min.js"></script>
+<script type="text/javascript" src="/sign/Public/jquery-1.8.3.min.js"></script>
+    
+
+<script type="text/javascript">
+    weui.alert('alert');
+</script>
+    </head>
+
+    <body>
+
+<div class="weui-cells__title">用户登录</div>
+<form class="weui-cells weui-cells_form" name="login" method="post" action="<?php echo U('Account/login');?>">
+<input type="hidden" name="key" value="<?php echo ($key); ?>" />
+    <div class="weui-cell">
+        <div class="weui-cell__hd"><label class="weui-label">用户名/邮箱</label></div>
+        <div class="weui-cell__bd">
+            <input class="weui-input" type="text" name="username" placeholder="请输入用户名或邮箱"/>
+        </div>
+    </div>
+    <div class="weui-cell">
+        <div class="weui-cell__hd"><label class="weui-label">密码</label></div>
+        <div class="weui-cell__bd">
+            <input class="weui-input" type="text" name="pwd" placeholder="请输入密码"/>
+        </div>
+    </div>
+
+    <div class="weui-cells weui-cells_radio">
+
+    <div class="weui-cell weui-cell_select weui-cell_select-after">
+        <div class="weui-cell__hd">
+            <label for="" class="weui-label">身份</label>
+        </div>
+        <div class="weui-cell__bd">
+            <select class="weui-select" name="cart">
+                <option value="student">学生</option>
+                <option value="techer">教师</option>
+                <!--<option value="3">校方</option>-->
+            </select>
+        </div>
+    </div>
+    
+</div>
+   
+    <div class="weui-cell weui-cell_vcode">
+        <div class="weui-cell__hd"><label class="weui-label">验证码</label></div>
+        <div class="weui-cell__bd">
+            <input class="weui-input" type="text" id="code" name="verifyCode" placeholder="请输入验证码"/>
+        </div>
+        <div class="weui-cell__ft">
+            <img src="<?php echo U('Home/Account/verify_c','','');?>" style="cursor:pointer" id="verifycode" class="ver"/>
+        </div>
+    </div>
+   <div class="weui-btn-area">
+    <input class="weui-btn weui-btn_primary" type="submit" id="showTooltips" value="登录">
+    </div>
+</form>
+
+<a href="<?php echo U('Home/Account/add');?>" class="weui-cell weui-cell_link">
+        <div class="weui-cell__bd">帐号注册</div>
+    </a>
+    <a href="<?php echo U('Home/Email/index');?>" class="weui-cell weui-cell_link">
+        <div class="weui-cell__bd">忘记密码</div>
+    </a>
+
+</div>
+
+
+
+
+
+
+    </body>
+    <script type="text/javascript">
+   // weui.alert('alert');
+   var captcha_img = $('#verifycode');
+var verifyimg = captcha_img.attr("src");  
+captcha_img.attr('title', '点击刷新');  
+$('.ver').click(function(){  
+    if( verifyimg.indexOf('?')>0){  
+        $(this).attr("src", verifyimg+'&random='+Math.random());  
+    }else{  
+        $(this).attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());  
+    }  
+});  
+
+
+$(document).ready(function(){
+
+$("#username").blur(function(){
+
+$.ajax({
+
+type:"post",
+
+url:"<?php echo U('Home/Account/check_username');?>",
+
+data:"username=" + $("#username").val(),
+
+success:function(msg){
+
+weui.alert(msg);
+
+}
+
+});
+
+});
+
+});
+
+$(document).ready(function(){
+
+$("#mail").blur(function(){
+
+$.ajax({
+
+type:"post",
+
+url:"<?php echo U('Home/Account/check_mail');?>",
+
+data:"mail=" + $("#mail").val(),
+
+success:function(msg){
+
+weui.alert(msg);
+
+}
+
+});
+
+});
+
+});
+
+
+$(document).ready(function(){
+$("#repassword").blur(function(){
+//if($("#repassword").val() && $("#password").val())
+
+$.ajax({
+
+type:"get",
+
+url:"<?php echo U('Home/Zhuce/check_pwd');?>",
+
+data:"password="+$("#password").val()+"&repassword="+$("#repassword").val(),
+
+success:function(message){
+
+$("#pwdinfo").html(message);
+
+}
+
+});
+
+});
+
+});
+
+ $(document).ready(function(){
+ 
+  $("#submit").click(function(){
+    if($("#username").val()==""){
+        weui.alert('用户名或邮箱不能为空');    
+        $('#username').focus();
+        return false;
+     }
+    else if($("#pwd").val()==""){
+        weui.alert('密码不能为空');    
+        $('#pwd').focus();
+        return false;
+    }          
+    
+    else if($("#code").val()==""){
+        weui.alert('验证码不能为空');   
+        $('code').focus();
+        return false;
+    }
+
+            else {$('form').submit();
+           }    
+   });
+ });
+</script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+
+
+<meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+        <title>签到记录详情</title>
+        <link rel="stylesheet" href="__PUBLIC__/weui.min.css"/>
+     
+
+<script type="text/javascript" src="__PUBLIC__/weui.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/jquery-1.8.3.min.js"></script>
+    
+
+<script type="text/javascript">
+    //weui.alert('alert');
+</script>
+    </head>
+
+    <body>
+    <div class="weui-cells__title">目前有{$count}位同学已签到.</div>
+    <div class="weui-cells__title">签到列表</div>
+
+
+<foreach name="detail" item="vo">
+
+   <div class="weui-cell weui-cell_access">
+                <div class="weui-cell__bd">
+                    <span style="vertical-align: middle">{$vo['stu_info']['realname']}&emsp;&emsp;{$vo['stu_info']['school']}&emsp;&emsp;</span>
+                    
+                </div>
+               <div class="weui-cell__ft">{$vo['sign_status']}</div>
+            </div>
+</foreach>
+
+
+    </body>
+    <script type="text/javascript">
+  
+
+</script>
+</html>

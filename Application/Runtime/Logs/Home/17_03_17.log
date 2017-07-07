@@ -1,0 +1,924 @@
+[ 2017-03-17T09:33:36+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008464s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 40 行.
+NOTIC: [8] Undefined index: tousername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2017-03-17T09:34:08+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 40 行.
+NOTIC: [8] Undefined index: tousername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-03-17T17:29:57+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','1') [ RunTime:0.0197s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','3') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','4') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','3') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','3') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','3') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','4') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','5') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','1') [ RunTime:0.0012s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','5') [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000123s ]
+
+[ 2017-03-17T17:30:05+08:00 ] 127.0.0.1 /sign/index.php?c=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2017-03-17T17:34:34+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2017-03-17T17:34:37+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2017-03-17T17:34:56+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000185s ]
+
+[ 2017-03-17T17:34:57+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000202s ]
+
+[ 2017-03-17T17:34:57+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000185s ]
+
+[ 2017-03-17T17:34:58+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000245s ]
+
+[ 2017-03-17T17:34:58+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000186s ]
+
+[ 2017-03-17T17:34:58+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000120s ]
+
+[ 2017-03-17T17:35:42+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000190s ]
+
+[ 2017-03-17T17:35:57+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2017-03-17T17:35:58+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000195s ]
+
+[ 2017-03-17T17:35:58+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2017-03-17T17:36:03+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000128s ]
+
+[ 2017-03-17T17:36:03+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2017-03-17T17:36:03+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2017-03-17T17:36:03+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000168s ]
+
+[ 2017-03-17T17:36:30+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0007s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: DELETE FROM `info_class` [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000248s ]
+
+[ 2017-03-17T17:36:30+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/ThinkPHP/Library/Think/Db/Driver.class.php 第 504 行.
+SQL: DELETE FROM `info_class` [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000210s ]
+
+[ 2017-03-17T17:36:45+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','3') [ RunTime:0.0005s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','4') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','5') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','2') [ RunTime:0.0006s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','3') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','2') [ RunTime:0.0015s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','5') [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2017-03-17T17:40:36+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','1')
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','1')
+
+[ 2017-03-17T17:41:09+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','1') [ RunTime:0.0307s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','2') [ RunTime:0.0383s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','3') [ RunTime:0.0684s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','4') [ RunTime:0.0602s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','5') [ RunTime:0.0481s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','1') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','2') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','3') [ RunTime:0.0299s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','4') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','5') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','1') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','2') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','3') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','4') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','5') [ RunTime:0.0386s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','1') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','2') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','3') [ RunTime:0.0381s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','4') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','5') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','1') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','2') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','3') [ RunTime:0.0303s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','4') [ RunTime:0.0382s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','5') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','1') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','2') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','3') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','4') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','5') [ RunTime:0.0386s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','1') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','2') [ RunTime:0.0386s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','3') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','4') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','5') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','1') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','2') [ RunTime:0.0376s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','3') [ RunTime:0.0301s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','4') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','5') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','1') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','2') [ RunTime:0.0381s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','3') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','4') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','5') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','1') [ RunTime:0.0381s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','2') [ RunTime:0.0386s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','3') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','4') [ RunTime:0.0386s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','5') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','1') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','2') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','3') [ RunTime:0.0301s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','4') [ RunTime:0.0386s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','5') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','1') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','2') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','3') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','4') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','5') [ RunTime:0.0386s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','1') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','2') [ RunTime:0.0383s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','3') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','4') [ RunTime:0.0383s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','5') [ RunTime:0.0381s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','1') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','2') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','3') [ RunTime:0.0300s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','4') [ RunTime:0.0386s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','5') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','1') [ RunTime:0.0383s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','2') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','3') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','4') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','5') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','1') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','2') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','3') [ RunTime:0.0376s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','4') [ RunTime:0.0590s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','5') [ RunTime:0.0423s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','1') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','2') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','3') [ RunTime:0.0302s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','4') [ RunTime:0.7449s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','5') [ RunTime:0.0383s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','1') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','2') [ RunTime:0.0400s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','3') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','4') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','5') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','1') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','2') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','3') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','4') [ RunTime:0.0386s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','5') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','1') [ RunTime:0.0386s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','2') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','3') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','4') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','5') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','1') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','2') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','3') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','4') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','5') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','1') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','2') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','3') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','4') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','5') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','1') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','2') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','3') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','4') [ RunTime:0.0381s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','5') [ RunTime:0.0383s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','1') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','2') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','3') [ RunTime:0.0377s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','4') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','5') [ RunTime:0.0602s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','1') [ RunTime:0.0601s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','2') [ RunTime:0.0600s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','3') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','4') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','5') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','1') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','2') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','3') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','4') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','5') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','1') [ RunTime:0.0383s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','2') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','3') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','4') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','5') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','1') [ RunTime:0.0383s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','2') [ RunTime:0.0745s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','3') [ RunTime:0.0301s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','4') [ RunTime:0.0383s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','5') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','1') [ RunTime:0.0383s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','2') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','3') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','4') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','5') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','1') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','2') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','3') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','4') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','5') [ RunTime:0.0380s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','1') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','2') [ RunTime:0.0379s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','3') [ RunTime:0.0301s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','4') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','5') [ RunTime:0.0381s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','1') [ RunTime:0.0384s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','2') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','3') [ RunTime:0.0385s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','4') [ RunTime:0.0378s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','5') [ RunTime:0.0385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000169s ]
+
+[ 2017-03-17T17:41:44+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+ERR: 模板不存在:./Application/Home/View/Test/test.html
+
+[ 2017-03-17T17:42:08+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000142s ]
+
+[ 2017-03-17T18:29:05+08:00 ] 127.0.0.1 /sign/index.php?signature=4d094a8dc66425013f2882dd7ad7d71d8e84aa42&timestamp=1489746544&nonce=1992122040&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-03-17T18:29:25+08:00 ] 127.0.0.1 /sign/index.php?signature=e559fe8706501b08e94a9a6fc4bebf31a1dae27f&timestamp=1489746565&nonce=1462965028&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000191s ]
+
+[ 2017-03-17T18:29:27+08:00 ] 127.0.0.1 /sign/index.php?c=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+
+[ 2017-03-17T18:30:02+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Email&a=findpwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `stu_info` WHERE `email` = '390350493@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tec_info` WHERE `email` = '390350493@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-03-17T18:30:05+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Email&a=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: status /var/www/html/sign/Application/Runtime/Cache/Home/7ed29f9b222d1e01c7cb89d4239828ab.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+

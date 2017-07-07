@@ -1,0 +1,2384 @@
+[ 2017-03-16T09:41:08+08:00 ] 127.0.0.1 /sign/index.php?signature=c011907e4dda28ac13a68b280adba91bfe0d8834&timestamp=1489628467&nonce=1376569438&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008401s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008388s ]
+
+[ 2017-03-16T09:41:22+08:00 ] 127.0.0.1 /sign/index.php?c=account&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000211s ]
+
+[ 2017-03-16T09:41:22+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000201s ]
+
+[ 2017-03-16T09:41:25+08:00 ] 127.0.0.1 /sign/index.php?c=email&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-03-16T09:46:18+08:00 ] 127.0.0.1 /sign/index.php?signature=6404b58292e9008431a07724a6ddefeaa28c4c85&timestamp=1489628777&nonce=564845802&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000141s ]
+
+[ 2017-03-16T12:07:31+08:00 ] 127.0.0.1 /sign/index.php?signature=fce482e4ce516316b17838dc8fdd98910a959407&timestamp=1489637250&nonce=463628963&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000204s ]
+
+[ 2017-03-16T18:43:26+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-03-16T18:43:48+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0007s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','1') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','计算机科学与技术','5') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','1') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','2') [ RunTime:0.0006s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','3') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','4') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息安全','5') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','3') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','4') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','网络工程','5') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','通信工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','电子信息工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','数学与应用数学','5') [ RunTime:0.0006s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','信息与计算科学','5') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','3') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','4') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('13','软件工程','5') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','1') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','计算机科学与技术','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息安全','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','网络工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','2') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','3') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','通信工程','5') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','3') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','4') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','电子信息工程','5') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','1') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','3') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','4') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','数学与应用数学','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','信息与计算科学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('14','软件工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','计算机科学与技术','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息安全','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','网络工程','5') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','通信工程','5') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','电子信息工程','5') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','数学与应用数学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','4') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','信息与计算科学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('15','软件工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','计算机科学与技术','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息安全','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','2') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','网络工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','通信工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','电子信息工程','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','数学与应用数学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','4') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','信息与计算科学','5') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','1') [ RunTime:0.0002s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','3') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','4') [ RunTime:0.0003s ]
+SQL: INSERT INTO `info_class` (`grade`,`major`,`num`) VALUES ('16','软件工程','5') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000229s ]
+
+[ 2017-03-16T18:48:42+08:00 ] 127.0.0.1 /sign/index.php?c=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000207s ]
+
+[ 2017-03-16T18:58:14+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000119s ]
+
+[ 2017-03-16T19:00:08+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2017-03-16T19:00:25+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+
+[ 2017-03-16T19:00:30+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+
+[ 2017-03-16T19:02:21+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-03-16T19:02:22+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: UPDATE `tec_info` SET `classids`='' WHERE `openid` = null [ RunTime:0.0169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+
+[ 2017-03-16T19:14:56+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '14' AND `major` = '电子信息工程' AND `num` = 0 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+
+[ 2017-03-16T19:15:16+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2017-03-16T19:15:17+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '14' AND `major` = '电子信息工程' AND `num` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-03-16T19:15:21+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '14' AND `major` = '电子信息工程' AND `num` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+
+[ 2017-03-16T19:15:50+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2017-03-16T19:15:51+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '14' AND `major` = '电子信息工程' AND `num` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 75 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = null [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+
+[ 2017-03-16T19:16:55+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '14' AND `major` = '电子信息工程' AND `num` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 75 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = '' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+
+[ 2017-03-16T19:17:24+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000162s ]
+
+[ 2017-03-16T19:17:25+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '14' AND `major` = '电子信息工程' AND `num` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 76 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = '' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+
+[ 2017-03-16T19:17:39+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-03-16T19:19:18+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2017-03-16T19:19:26+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '信息与计算科学' AND `num` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 76 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = '' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+
+[ 2017-03-16T19:20:43+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+
+[ 2017-03-16T19:21:01+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+
+[ 2017-03-16T19:21:01+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+
+[ 2017-03-16T19:21:01+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+
+[ 2017-03-16T19:21:24+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+
+[ 2017-03-16T19:21:24+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-03-16T19:21:25+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+
+[ 2017-03-16T19:21:25+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+
+[ 2017-03-16T19:21:25+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-03-16T19:21:25+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+
+[ 2017-03-16T19:21:31+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2017-03-16T19:21:32+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass&
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '信息与计算科学' AND `num` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 76 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = '' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+
+[ 2017-03-16T19:21:40+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-03-16T19:21:41+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000146s ]
+
+[ 2017-03-16T19:21:41+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2017-03-16T19:22:52+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+
+[ 2017-03-16T19:23:30+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-03-16T19:23:31+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass&openid=%24openid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '信息与计算科学' AND `num` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 76 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = '' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+
+[ 2017-03-16T19:24:00+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2017-03-16T19:24:01+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass&openid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '信息与计算科学' AND `num` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 76 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = '' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+
+[ 2017-03-16T19:26:16+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-03-16T19:26:20+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '信息与计算科学' AND `num` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 77 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = '' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+
+[ 2017-03-16T19:26:34+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000175s ]
+
+[ 2017-03-16T19:26:37+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '信息与计算科学' AND `num` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 77 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = null [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-03-16T19:27:24+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000146s ]
+
+[ 2017-03-16T19:27:29+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 57 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-03-16T19:27:33+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '通信工程' AND `num` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 78 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = null [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+
+[ 2017-03-16T19:28:09+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-03-16T19:28:19+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000216s ]
+
+[ 2017-03-16T19:28:23+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 79 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-03-16T19:30:08+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '网络工程' AND `num` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 79 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-03-16T19:30:17+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '信息与计算科学' AND `num` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 79 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+
+[ 2017-03-16T19:30:33+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '信息与计算科学' AND `num` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 79 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-03-16T19:30:38+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '信息与计算科学' AND `num` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 79 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+
+[ 2017-03-16T19:33:24+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-03-16T19:33:30+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 82 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-03-16T19:33:59+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2017-03-16T19:34:02+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 83 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+
+[ 2017-03-16T19:34:47+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 83 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+
+[ 2017-03-16T19:34:50+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
+[ 2017-03-16T19:34:53+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 83 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-03-16T19:35:13+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 83 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+
+[ 2017-03-16T19:35:31+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 83 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-03-16T19:36:27+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 83 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-03-16T19:37:02+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 83 行.
+SQL: UPDATE `tec_info` SET `classids`='null' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+
+[ 2017-03-16T19:37:20+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 4 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `classids`='a:1:{i:0;s:2:\"25\";}' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000150s ]
+
+[ 2017-03-16T19:37:21+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-03-16T19:38:22+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-03-16T19:38:29+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1406:Data too long for column 'classids' at row 1
+ [ SQL语句 ] : UPDATE `tec_info` SET `classids`='a:2:{i:0;s:2:\"25\";i:1;s:2:\"24\";}' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo'
+ERR: 1406:Data too long for column 'classids' at row 1
+ [ SQL语句 ] : UPDATE `tec_info` SET `classids`='a:2:{i:0;s:2:\"25\";i:1;s:2:\"24\";}' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo'
+
+[ 2017-03-16T19:40:00+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '13' AND `major` = '电子信息工程' AND `num` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tec_info` SET `classids`='a:2:{i:0;s:2:\"25\";i:1;s:2:\"24\";}' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000186s ]
+
+[ 2017-03-16T19:40:01+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-03-16T19:40:08+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=addClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `info_class` WHERE `grade` = '16' AND `major` = '计算机科学与技术' AND `num` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `classids`='a:3:{i:0;s:2:\"25\";i:1;s:2:\"24\";i:2;s:3:\"124\";}' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-03-16T19:40:09+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-03-16T19:41:09+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000175s ]
+
+[ 2017-03-16T19:41:09+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000224s ]
+
+[ 2017-03-16T19:45:43+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: list /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-03-16T19:45:58+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: list /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-03-16T19:45:59+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: list /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-03-16T19:45:59+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: list /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2017-03-16T19:45:59+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: list /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-03-16T19:46:07+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: list /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2017-03-16T19:46:13+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: list /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-03-16T19:49:35+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-03-16T19:49:51+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2017-03-16T19:50:11+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-03-16T19:51:38+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2017-03-16T19:54:51+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-03-16T19:55:06+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000151s ]
+
+[ 2017-03-16T19:56:37+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000170s ]
+
+[ 2017-03-16T19:57:37+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000183s ]
+
+[ 2017-03-16T19:59:02+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2017-03-16T19:59:14+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2017-03-16T19:59:47+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0009s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2017-03-16T20:00:41+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000144s ]
+
+[ 2017-03-16T20:02:07+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000170s ]
+
+[ 2017-03-16T20:02:43+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+
+[ 2017-03-16T20:03:26+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000151s ]
+
+[ 2017-03-16T20:03:33+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2017-03-16T20:04:05+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2017-03-16T20:04:50+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2017-03-16T20:05:05+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000173s ]
+
+[ 2017-03-16T20:05:43+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-03-16T20:05:58+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+

@@ -1,0 +1,2474 @@
+[ 2017-04-01T09:42:30+08:00 ] 127.0.0.1 /sign/index.php?signature=7b5ad6c00d1a94022adec9fb4158e1cc99cd1e71&timestamp=1491010950&nonce=1777653553&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008692s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0110s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0004s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2017-04-01T09:42:31+08:00 ] 127.0.0.1 /sign/index.php?signature=6d8a634e248505c964f4fd366c54219d1a08c689&timestamp=1491010951&nonce=2014569614&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-04-01T09:42:36+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T09:42:36+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-04-01T09:42:39+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=codeView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2017-04-01T09:42:46+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=checkCodeUrl&codeUrl=http://weixin.qq.com/q/02ustE4Y_FfY210000003K
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT `code_url` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0012s ]
+SQL: UPDATE `activity_res` SET `code_status`='1' WHERE `id` = 2 [ RunTime:0.0004s ]
+
+[ 2017-04-01T09:42:48+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T09:42:49+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T09:42:50+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=localHandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `tec_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0009s ]
+SQL: SELECT `latitude` FROM `stu_info` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `longitude` FROM `stu_info` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `longitude` FROM `tec_info` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `latitude` FROM `tec_info` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0008s ]
+SQL: UPDATE `activity_res` SET `local_status`='1' WHERE `act_id` = '67' AND `stu_id` = 2 [ RunTime:0.0003s ]
+
+[ 2017-04-01T09:42:50+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=localView&status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-04-01T09:42:54+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T09:42:55+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0008s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T09:42:56+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=faceHandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2017-04-01T09:43:43+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=uploadToWx&serverId=2BZonbLPAnUDzqedFH4itcUNdDG7hn8sMwhEX-_D5byvDwTL_8zRXTzb95M-TYdF&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+NOTIC: [2048] Only variables should be passed by reference /var/www/html/sign/Application/Home/Controller/StudentController.class.php 第 306 行.
+NOTIC: [8] Undefined index: confidence /var/www/html/sign/Application/Home/Controller/StudentController.class.php 第 307 行.
+
+[ 2017-04-01T09:44:07+08:00 ] 127.0.0.1 /sign/index.php?signature=8e4b7ec3a80005a92c670b0918575e8ba33c2f02&timestamp=1491011046&nonce=929682840&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000184s ]
+
+[ 2017-04-01T09:44:39+08:00 ] 127.0.0.1 /sign/index.php?signature=78efe1e8068e20bf48c30afd7278ee56f7fba379&timestamp=1491011079&nonce=212184364&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=uploadToWx&serverId=2BZonbLPAnUDzqedFH4itcUNdDG7hn8sMwhEX-_D5byvDwTL_8zRXTzb95M-TYdF&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+NOTIC: [2048] Only variables should be passed by reference /var/www/html/sign/Application/Home/Controller/StudentController.class.php 第 306 行.
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=b5e49cf2e15fc4112e7f5bec291e448cb16a6ce8&timestamp=1491011108&nonce=95067368&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=b5e49cf2e15fc4112e7f5bec291e448cb16a6ce8&timestamp=1491011108&nonce=95067368&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0018s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=b5e49cf2e15fc4112e7f5bec291e448cb16a6ce8&timestamp=1491011108&nonce=95067368&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000187s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=fd2287e327dddbe363c68e9131162b520a93ad24&timestamp=1491011129&nonce=844982722&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=fd2287e327dddbe363c68e9131162b520a93ad24&timestamp=1491011129&nonce=844982722&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=fd2287e327dddbe363c68e9131162b520a93ad24&timestamp=1491011129&nonce=844982722&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000201s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=a3bcc8f22875f618147ea9cdf3ba5a336f38e46b&timestamp=1491011178&nonce=1230853701&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000170s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=d68e55d7758b7fdede7926405e5e637be2fe15fc&timestamp=1491011169&nonce=1547235573&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0004s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000173s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=d68e55d7758b7fdede7926405e5e637be2fe15fc&timestamp=1491011169&nonce=1547235573&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000175s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=787fc30ef2d608638e8f1b7115a26824093a0053&timestamp=1491011178&nonce=864632714&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0013s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000176s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=d68e55d7758b7fdede7926405e5e637be2fe15fc&timestamp=1491011169&nonce=1547235573&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000176s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=787fc30ef2d608638e8f1b7115a26824093a0053&timestamp=1491011178&nonce=864632714&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=a3bcc8f22875f618147ea9cdf3ba5a336f38e46b&timestamp=1491011178&nonce=1230853701&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=a3bcc8f22875f618147ea9cdf3ba5a336f38e46b&timestamp=1491011178&nonce=1230853701&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-04-01T09:48:44+08:00 ] 127.0.0.1 /sign/index.php?signature=787fc30ef2d608638e8f1b7115a26824093a0053&timestamp=1491011178&nonce=864632714&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2017-04-01T09:50:40+08:00 ] 127.0.0.1 /sign/index.php?signature=bfedb31ebf7d66d15513b82b3ca75eb65749c3e6&timestamp=1491011439&nonce=1946636192&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-04-01T09:50:41+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T09:50:43+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-04-01T09:50:44+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=faceHandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2017-04-01T09:50:59+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=uploadToWx&serverId=aXIGIZR4BL-31iC-n1r7P1o3Hn0T3HXsvmjHW7btMW-NrKgsAnAHs6wFhzQxUljr&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [2048] Only variables should be passed by reference /var/www/html/sign/Application/Home/Controller/StudentController.class.php 第 306 行.
+NOTIC: [8] Undefined index: confidence /var/www/html/sign/Application/Home/Controller/StudentController.class.php 第 307 行.
+
+[ 2017-04-01T09:51:20+08:00 ] 127.0.0.1 /sign/index.php?signature=7747575a0cb026b3c2cbadaa8c9e21b12ef896c3&timestamp=1491011480&nonce=1719131516&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000198s ]
+
+[ 2017-04-01T09:51:34+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T09:51:35+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T09:51:37+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=faceHandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000172s ]
+
+[ 2017-04-01T09:52:27+08:00 ] 127.0.0.1 /sign/index.php?signature=4ff7d7be91f9ccb3e43bf8d0727938efd49df7cd&timestamp=1491011547&nonce=1887779081&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0001s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2017-04-01T09:56:49+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=uploadToWx&serverId=e5zENBboyU1aLkOJ_biJifa-4uDpIPuc35AN2KDUHl35JA35BYQM5PVndKztxyzl&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+NOTIC: [2048] Only variables should be passed by reference /var/www/html/sign/Application/Home/Controller/StudentController.class.php 第 306 行.
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=uploadToWx&serverId=e5zENBboyU1aLkOJ_biJifa-4uDpIPuc35AN2KDUHl35JA35BYQM5PVndKztxyzl&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+NOTIC: [2048] Only variables should be passed by reference /var/www/html/sign/Application/Home/Controller/StudentController.class.php 第 306 行.
+NOTIC: [8] Undefined index: confidence /var/www/html/sign/Application/Home/Controller/StudentController.class.php 第 307 行.
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?signature=f9319fa6834af6a416ada1354e5b4db7e7785fdd&timestamp=1491011581&nonce=1853962669&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000157s ]
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=faceHandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?signature=f9319fa6834af6a416ada1354e5b4db7e7785fdd&timestamp=1491011581&nonce=1853962669&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0004s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000244s ]
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?signature=f9319fa6834af6a416ada1354e5b4db7e7785fdd&timestamp=1491011581&nonce=1853962669&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000172s ]
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?signature=4053e7d070083e1728eea8ce3d05f447e90d5bc8&timestamp=1491011594&nonce=600928027&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?signature=4053e7d070083e1728eea8ce3d05f447e90d5bc8&timestamp=1491011594&nonce=600928027&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?signature=4053e7d070083e1728eea8ce3d05f447e90d5bc8&timestamp=1491011594&nonce=600928027&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000207s ]
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?signature=5f3ab01c0c70b043a346ab004be7e4e1a9e46b2d&timestamp=1491011640&nonce=1350836907&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?signature=5f3ab01c0c70b043a346ab004be7e4e1a9e46b2d&timestamp=1491011640&nonce=1350836907&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2017-04-01T09:57:27+08:00 ] 127.0.0.1 /sign/index.php?signature=5f3ab01c0c70b043a346ab004be7e4e1a9e46b2d&timestamp=1491011640&nonce=1350836907&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-04-01T09:57:28+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=faceHandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000170s ]
+
+[ 2017-04-01T09:57:28+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T09:57:28+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T09:57:28+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T09:57:28+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T10:11:47+08:00 ] 127.0.0.1 /sign/index.php?signature=6ae1184495894d54ed2650f4fa37e0c321cf67ee&timestamp=1491012706&nonce=1048935005&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2017-04-01T10:11:47+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T10:11:48+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T10:11:49+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=faceHandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000183s ]
+
+[ 2017-04-01T10:12:06+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=uploadToWx&serverId=bdMJyBDnw_0COIiFQUhCF7v2FLP3UowBg7kBRtXxnAuaO8eHOfXFrr84cxWPYxBJ&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+NOTIC: [2048] Only variables should be passed by reference /var/www/html/sign/Application/Home/Controller/StudentController.class.php 第 306 行.
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: UPDATE `activity_res` SET `face_status`='1' WHERE `act_id` = '67' AND `stu_id` = 2 [ RunTime:0.0005s ]
+
+[ 2017-04-01T10:12:08+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T10:12:09+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0008s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T10:12:09+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=answerView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `question` WHERE `act_id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-04-01T10:12:12+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=answerHandler&option_select=d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0006s ]
+SQL: SELECT `option_right` FROM `question` WHERE `act_id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0005s ]
+SQL: UPDATE `activity_res` SET `answer_status`='1' WHERE `act_id` = 67 AND `stu_id` = 2 [ RunTime:0.0003s ]
+
+[ 2017-04-01T10:12:13+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T10:12:13+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `activity_res` SET `sign_status`='1' [ RunTime:0.0002s ]
+
+[ 2017-04-01T10:12:14+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=result&title=%E7%AD%BE%E5%88%B0%E6%88%90%E5%8A%9F&msg=%E4%BD%A0%E5%B7%B2%E7%AD%BE%E5%88%B0%E6%88%90%E5%8A%9F%EF%BC%8C%E6%8E%A5%E4%B8%8B%E6%9D%A5%E8%AF%B7%E8%AE%A4%E7%9C%9F%E5%90%AC%E8%AF%BE%E5%93%9F0.0&status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2017-04-01T10:12:21+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signTrack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `stu_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity` WHERE `week_status` = 1 ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0005s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '69' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '68' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '66' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '62' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '61' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '60' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '59' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '58' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '57' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '56' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '55' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '54' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '53' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '52' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '51' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '50' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '49' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '48' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '47' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '46' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '45' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '44' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '43' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '42' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '41' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '40' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '39' AND `stu_id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '38' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '37' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '36' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '35' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '34' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '33' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '32' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '31' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '30' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '29' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '28' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '27' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '26' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '25' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '24' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '23' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '22' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '21' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '20' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '19' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '18' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '17' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '16' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '15' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '14' AND `stu_id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '13' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '12' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '11' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '10' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '9' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '8' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '7' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '6' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '5' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '4' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '3' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '2' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '1' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: course_name /var/www/html/sign/Application/Runtime/Cache/Home/241f17ede116ce9a0b35dbb5dc5bd801.php 第 28 行.
+NOTIC: [8] Undefined index: time_start /var/www/html/sign/Application/Runtime/Cache/Home/241f17ede116ce9a0b35dbb5dc5bd801.php 第 28 行.
+NOTIC: [8] Undefined index: time_end /var/www/html/sign/Application/Runtime/Cache/Home/241f17ede116ce9a0b35dbb5dc5bd801.php 第 28 行.
+NOTIC: [8] Undefined index: id /var/www/html/sign/Application/Runtime/Cache/Home/241f17ede116ce9a0b35dbb5dc5bd801.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-04-01T10:12:39+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signTrackDetail&week_status=1&id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '69'  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activity_res` WHERE `act_id` = '69' AND `sign_status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: school /var/www/html/sign/Application/Runtime/Cache/Home/55cb8dbb6e46e6a2b1e83195d0f7e960.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2017-04-01T10:12:46+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signTrackDetail&week_status=1&id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '68'  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activity_res` WHERE `act_id` = '68' AND `sign_status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2017-04-01T10:12:50+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signTrackDetail&week_status=1&id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '69'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activity_res` WHERE `act_id` = '69' AND `sign_status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: school /var/www/html/sign/Application/Runtime/Cache/Home/55cb8dbb6e46e6a2b1e83195d0f7e960.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2017-04-01T10:12:57+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T10:12:57+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=result&title=%E4%BD%A0%E5%B7%B2%E7%AD%BE%E5%88%B0%E6%88%90%E5%8A%9F%EF%BC%8C%E8%AF%B7%E5%8B%BF%E9%87%8D%E5%A4%8D%E7%AD%BE%E5%88%B0&msg=%E4%BD%A0%E5%B7%B2%E7%AD%BE%E5%88%B0%E6%88%90%E5%8A%9F%EF%BC%8C%E6%8E%A5%E4%B8%8B%E6%9D%A5%E8%AF%B7%E8%AE%A4%E7%9C%9F%E5%90%AC%E8%AF%BE%E5%93%9F0.0&status=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000169s ]
+
+[ 2017-04-01T10:13:05+08:00 ] 127.0.0.1 /sign/index.php?signature=fbc438fe863d88156f849ad4ee6242632fe264a0&timestamp=1491012785&nonce=1451581971&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541241',`longitude`='104.052658' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000177s ]
+
+[ 2017-04-01T12:23:21+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T12:23:21+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=result&title=%E4%BD%A0%E5%B7%B2%E7%AD%BE%E5%88%B0%E6%88%90%E5%8A%9F%EF%BC%8C%E8%AF%B7%E5%8B%BF%E9%87%8D%E5%A4%8D%E7%AD%BE%E5%88%B0&msg=%E4%BD%A0%E5%B7%B2%E7%AD%BE%E5%88%B0%E6%88%90%E5%8A%9F%EF%BC%8C%E6%8E%A5%E4%B8%8B%E6%9D%A5%E8%AF%B7%E8%AE%A4%E7%9C%9F%E5%90%AC%E8%AF%BE%E5%93%9F0.0&status=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-04-01T12:23:26+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signTrack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `stu_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity` WHERE `week_status` = 1 ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0005s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '69' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '68' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '66' AND `stu_id` = null LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '62' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '61' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '60' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '59' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '58' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '57' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '56' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '55' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '54' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '53' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '52' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '51' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '50' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '49' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '48' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '47' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '46' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '45' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '44' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '43' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '42' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '41' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '40' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '39' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '38' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '37' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '36' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '35' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '34' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '33' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '32' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '31' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '30' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '29' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '28' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '27' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '26' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '25' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '24' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '23' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '22' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '21' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '20' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '19' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '18' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '17' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '16' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '15' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '14' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '13' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '12' AND `stu_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '11' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '10' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '9' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '8' AND `stu_id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '7' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '6' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '5' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '4' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '3' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '2' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `sign_status` FROM `activity_res` WHERE `act_id` = '1' AND `stu_id` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: course_name /var/www/html/sign/Application/Runtime/Cache/Home/241f17ede116ce9a0b35dbb5dc5bd801.php 第 28 行.
+NOTIC: [8] Undefined index: time_start /var/www/html/sign/Application/Runtime/Cache/Home/241f17ede116ce9a0b35dbb5dc5bd801.php 第 28 行.
+NOTIC: [8] Undefined index: time_end /var/www/html/sign/Application/Runtime/Cache/Home/241f17ede116ce9a0b35dbb5dc5bd801.php 第 28 行.
+NOTIC: [8] Undefined index: id /var/www/html/sign/Application/Runtime/Cache/Home/241f17ede116ce9a0b35dbb5dc5bd801.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000160s ]
+
+[ 2017-04-01T12:23:32+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signTrackDetail&week_status=1&id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '69'  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activity_res` WHERE `act_id` = '69' AND `sign_status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined index: school /var/www/html/sign/Application/Runtime/Cache/Home/55cb8dbb6e46e6a2b1e83195d0f7e960.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000187s ]
+
+[ 2017-04-01T12:23:37+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signTrackDetail&week_status=1&id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '69'  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `activity_res` WHERE `act_id` = '69' AND `sign_status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: school /var/www/html/sign/Application/Runtime/Cache/Home/55cb8dbb6e46e6a2b1e83195d0f7e960.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-04-01T12:23:45+08:00 ] 127.0.0.1 /sign/index.php?signature=e9590b8fa5a0e2ed8eea0feb253a7fd3667ffec4&timestamp=1491020624&nonce=877771062&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.543003',`longitude`='104.055649' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.543003',`longitude`='104.055649' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000184s ]
+
+[ 2017-04-01T12:23:47+08:00 ] 127.0.0.1 /sign/index.php?signature=8b0fc0e920a9f5972983c2826f6b467c19f78e29&timestamp=1491020627&nonce=139876004&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000183s ]
+
+[ 2017-04-01T12:23:50+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=faceInput&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000115s ]
+
+[ 2017-04-01T12:23:59+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=faceInput&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-04-01T12:24:06+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=addFaceInfo&serverId=zVrColac_oqKn9I0mVN0tJWnbrM4P_Rda2TmgqrVMLm74kQ0nAqES7joMXvl4ej0&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+
+[ 2017-04-01T12:24:09+08:00 ] 127.0.0.1 /sign/index.php?signature=b2f4c11643e257e8e5b1ec5f02a6f4b90e2b9843&timestamp=1491020649&nonce=190207866&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.543003',`longitude`='104.055649' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.543003',`longitude`='104.055649' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000150s ]
+
+[ 2017-04-01T13:57:24+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=faceInput&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-04-01T13:57:47+08:00 ] 127.0.0.1 /sign/index.php?signature=3cb1be99726a3007e62d9933cf00264e5830f5b9&timestamp=1491026267&nonce=1668857816&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541822',`longitude`='104.052162' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541822',`longitude`='104.052162' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2017-04-01T13:57:48+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=faceInput&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000164s ]
+
+[ 2017-04-01T13:57:55+08:00 ] 127.0.0.1 /sign/index.php?signature=efaf3eaa0264c833382fe828975ef8687f579b81&timestamp=1491026274&nonce=1332738630&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541822',`longitude`='104.052162' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541822',`longitude`='104.052162' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000229s ]
+
+[ 2017-04-01T13:58:43+08:00 ] 127.0.0.1 /sign/index.php?signature=6674ea42f3bf871aca6d49c6261d944e294359cd&timestamp=1491026323&nonce=197182866&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541836',`longitude`='104.052238' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0004s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541836',`longitude`='104.052238' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2017-04-01T13:58:44+08:00 ] 127.0.0.1 /sign/index.php?signature=fdb729f7800fb54518805d920d23f120f4dc76a0&timestamp=1491026324&nonce=862640512&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000177s ]
+
+[ 2017-04-01T13:58:46+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=sign&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&act_id=67&stu_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T13:58:47+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0008s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T13:58:48+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=codeView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2017-04-01T13:58:56+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=checkCodeUrl&codeUrl=http://weixin.qq.com/q/02ustE4Y_FfY210000003K
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT `code_url` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: UPDATE `activity_res` SET `code_status`='1' WHERE `id` = 2 [ RunTime:0.0003s ]
+
+[ 2017-04-01T13:58:57+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-04-01T13:58:58+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-04-01T13:58:59+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=localHandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `tec_info` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT `latitude` FROM `stu_info` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `longitude` FROM `stu_info` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `longitude` FROM `tec_info` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `latitude` FROM `tec_info` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: UPDATE `activity_res` SET `local_status`='1' WHERE `act_id` = '67' AND `stu_id` = 2 [ RunTime:0.0004s ]
+
+[ 2017-04-01T13:58:59+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=localView&status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000175s ]
+
+[ 2017-04-01T13:59:02+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T13:59:02+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0006s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-04-01T13:59:03+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=faceHandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-04-01T13:59:16+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=localView&status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2017-04-01T13:59:20+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=uploadToWx&serverId=4A-FqVjkLQ1sQ7UlYa9sGZO7cC5K9ushQzRSFny7KgV0Gj3PMI8Jl_Xlkn0h5wa4&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2048] Only variables should be passed by reference /var/www/html/sign/Application/Home/Controller/StudentController.class.php 第 306 行.
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: UPDATE `activity_res` SET `face_status`='1' WHERE `act_id` = '67' AND `stu_id` = 2 [ RunTime:0.0004s ]
+
+[ 2017-04-01T13:59:23+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `act_id` = '67' AND `stu_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T13:59:23+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=signRoute
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0007s ]
+SQL: SELECT `tec_id` FROM `activity` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `activity_res` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `activity_way` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `activity_way` WHERE `tec_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-04-01T13:59:24+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=answerView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `question` WHERE `act_id` = 67 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2017-04-01T13:59:27+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Student&a=answerHandler&option_select=b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0005s ]
+SQL: SELECT `option_right` FROM `question` WHERE `act_id` = 67 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `activity_res` [ RunTime:0.0004s ]
+SQL: UPDATE `activity_res` SET `answer_status`='-1' WHERE `act_id` = 67 AND `stu_id` = 2 [ RunTime:0.0004s ]
+
+[ 2017-04-01T13:59:29+08:00 ] 127.0.0.1 /sign/index.php?signature=156716834f10d43e296a9e42f5efd7d1fd555943&timestamp=1491026369&nonce=1964260911&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541836',`longitude`='104.052238' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541836',`longitude`='104.052238' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000202s ]
+
+[ 2017-04-01T18:18:43+08:00 ] 127.0.0.1 /sign/index.php?signature=fdc64fb88bb32cbc4fde081076394c4b410673fd&timestamp=1491041922&nonce=821325174&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541451',`longitude`='104.051849' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541451',`longitude`='104.051849' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-04-01T18:18:53+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 40 行.
+NOTIC: [8] Undefined index: tousername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2017-04-01T18:19:14+08:00 ] 127.0.0.1 /sign/index.php?signature=de62edf3c9abe15ee3c24d417ef7c0915012bfb9&timestamp=1491041954&nonce=1688500490&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541536',`longitude`='104.051910' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541536',`longitude`='104.051910' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2017-04-01T18:19:38+08:00 ] 127.0.0.1 /sign/index.php?signature=598a463d9603ab1c7850badab9d8d7273e3ca6d4&timestamp=1491041978&nonce=1504643337&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541536',`longitude`='104.051910' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541536',`longitude`='104.051910' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000221s ]
+
+[ 2017-04-01T18:19:44+08:00 ] 127.0.0.1 /sign/index.php?signature=ea29836f8bc12d61a15b9f7375504c9186b289b1&timestamp=1491041983&nonce=1649184854&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000119s ]
+
+[ 2017-04-01T18:19:45+08:00 ] 127.0.0.1 /sign/index.php?c=account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-04-01T18:19:45+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-04-01T18:19:49+08:00 ] 127.0.0.1 /sign/index.php?signature=2f3fd953addd0fb489bd5bb4a74c8c07edd4c99e&timestamp=1491041988&nonce=363256198&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541748',`longitude`='104.052193' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541748',`longitude`='104.052193' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2017-04-01T18:19:53+08:00 ] 127.0.0.1 /sign/index.php?signature=671259c65a1298cb1d0f9a6f71e8dd5fc1f5e058&timestamp=1491041992&nonce=1643520899&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-04-01T18:19:56+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `info_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `info_class` WHERE `id` = 124 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-04-01T18:20:00+08:00 ] 127.0.0.1 /sign/index.php?signature=b1d51cb16ffac27e4baccf0d5bc9318e8de291e1&timestamp=1491042000&nonce=1317686298&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541712',`longitude`='104.052071' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0004s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541712',`longitude`='104.052071' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000117s ]
+
+[ 2017-04-01T18:20:05+08:00 ] 127.0.0.1 /sign/index.php?signature=fade49f1e7c8669dd8d77cff4e8c6662271422ff&timestamp=1491042005&nonce=113392823&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541712',`longitude`='104.052071' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541712',`longitude`='104.052071' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000149s ]
+
+[ 2017-04-01T18:20:27+08:00 ] 127.0.0.1 /sign/index.php?signature=b2d18ac6ba19909ac2cabdbfb865389fd86cf81c&timestamp=1491042027&nonce=407238758&openid=ofyn8wuWTj_SvysyHCzPBzvNkC4s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000189s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wuWTj_SvysyHCzPBzvNkC4s' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wuWTj_SvysyHCzPBzvNkC4s' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000186s ]
+
+[ 2017-04-01T18:20:35+08:00 ] 127.0.0.1 /sign/index.php?signature=3302fbe8eadc93f996d6315ea416382dc1d19b8d&timestamp=1491042035&nonce=1043411110&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541557',`longitude`='104.051971' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541557',`longitude`='104.051971' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000119s ]
+
+[ 2017-04-01T18:20:37+08:00 ] 127.0.0.1 /sign/index.php?signature=60b34263833849c45468fcfa710f41afdf728889&timestamp=1491042037&nonce=1084712856&openid=ofyn8wuWTj_SvysyHCzPBzvNkC4s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wuWTj_SvysyHCzPBzvNkC4s' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wuWTj_SvysyHCzPBzvNkC4s' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000199s ]
+
+[ 2017-04-01T18:24:40+08:00 ] 127.0.0.1 /sign/index.php?signature=d09bb1d8ba002c8765bb7f940abcb37db46f205e&timestamp=1491042279&nonce=1384780955&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541557',`longitude`='104.051971' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541557',`longitude`='104.051971' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000190s ]
+
+[ 2017-04-01T18:24:44+08:00 ] 127.0.0.1 /sign/index.php?signature=652bff84d0bed388f04df330fc3242095fac0db7&timestamp=1491042284&nonce=314982053&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000144s ]
+
+[ 2017-04-01T18:24:45+08:00 ] 127.0.0.1 /sign/index.php?c=student&a=faceHandler
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000128s ]
+
+[ 2017-04-01T18:24:54+08:00 ] 127.0.0.1 /sign/index.php?signature=e91cdb19d4fe73e6480da4657667338a00e507f9&timestamp=1491042294&nonce=257270665&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `stu_info` SET `latitude`='30.541557',`longitude`='104.051971' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0003s ]
+SQL: UPDATE `tec_info` SET `latitude`='30.541557',`longitude`='104.051971' WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000193s ]
+
+[ 2017-04-01T18:24:56+08:00 ] 127.0.0.1 /sign/index.php?signature=a193a181f44b552e1eab8b125db71d229e7e225f&timestamp=1491042296&nonce=1833577604&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000193s ]
+
+[ 2017-04-01T18:24:56+08:00 ] 127.0.0.1 /sign/index.php?c=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+

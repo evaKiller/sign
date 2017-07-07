@@ -1,0 +1,2673 @@
+[ 2017-03-15T19:15:01+08:00 ] 127.0.0.1 /sign/index.php?signature=9bbdf6a1b7ad26034443f71ccf91c932464ea502&timestamp=1489576500&nonce=1547949528&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008566s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2017-03-15T19:15:08+08:00 ] 127.0.0.1 /sign/index.php?c=account&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000196s ]
+
+[ 2017-03-15T19:15:11+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 32 行.
+NOTIC: [8] Undefined index: tousername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 32 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-03-15T19:15:11+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 32 行.
+NOTIC: [8] Undefined index: tousername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 32 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-03-15T19:15:11+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 32 行.
+NOTIC: [8] Undefined index: tousername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 32 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000150s ]
+
+[ 2017-03-15T19:15:16+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000163s ]
+
+[ 2017-03-15T19:15:45+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-03-15T19:15:46+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2017-03-15T19:16:09+08:00 ] 127.0.0.1 /sign/index.php?c=account&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-03-15T19:16:26+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-03-15T19:18:09+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.3641344856005162
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+
+[ 2017-03-15T19:18:10+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.29642839916050434
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-03-15T19:18:11+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.5029576448723674
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-03-15T19:18:11+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.1789328793529421
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+
+[ 2017-03-15T19:18:11+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.14819757058285177
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+
+[ 2017-03-15T19:18:12+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.9754977957345545
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-03-15T19:18:12+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.20451740291900933
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+
+[ 2017-03-15T19:18:13+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.6476814721245319
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+
+[ 2017-03-15T19:18:13+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.6285936804488301
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+
+[ 2017-03-15T19:18:36+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+
+[ 2017-03-15T19:18:36+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+
+[ 2017-03-15T19:18:37+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+
+[ 2017-03-15T19:18:51+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2017-03-15T19:18:52+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000141s ]
+
+[ 2017-03-15T19:18:54+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.8509220778942108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-03-15T19:19:17+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `username` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-03-15T19:21:33+08:00 ] 127.0.0.1 /sign/index.php?signature=e1d557393832b5b6ff139e4a2d9fdcb7367d038c&timestamp=1489576892&nonce=592883517&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-03-15T19:21:35+08:00 ] 127.0.0.1 /sign/index.php?c=account&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-03-15T19:21:36+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000237s ]
+
+[ 2017-03-15T19:21:40+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-03-15T19:21:40+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2017-03-15T19:21:45+08:00 ] 127.0.0.1 /sign/index.php?c=account&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2017-03-15T19:21:45+08:00 ] 127.0.0.1 /sign/index.php?c=account&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000140s ]
+
+[ 2017-03-15T19:22:04+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `username` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-03-15T19:22:10+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+
+[ 2017-03-15T19:22:53+08:00 ] 127.0.0.1 /sign/index.php?signature=16a59cb6cbf58ec2cd50d80226643f396a382066&timestamp=1489576973&nonce=1243222082&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T19:22:54+08:00 ] 127.0.0.1 /sign/index.php?c=account&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-03-15T19:22:55+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000207s ]
+
+[ 2017-03-15T19:22:59+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
+[ 2017-03-15T19:22:59+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000165s ]
+
+[ 2017-03-15T19:23:01+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-03-15T19:23:04+08:00 ] 127.0.0.1 /sign/index.php?c=account&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000136s ]
+
+[ 2017-03-15T19:23:08+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `username` = '' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `stu_info` WHERE `schoolnum` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-03-15T19:23:57+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.43675403925590217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000181s ]
+
+[ 2017-03-15T19:24:01+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `username` = '' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `stu_info` WHERE `schoolnum` = '' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/html/sign/Application/Home/Controller/AccountController.class.php:110) /var/www/html/sign/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/html/sign/Application/Home/Controller/AccountController.class.php:110) /var/www/html/sign/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/html/sign/Application/Home/Controller/AccountController.class.php:110) /var/www/html/sign/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2017-03-15T19:24:09+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000151s ]
+
+[ 2017-03-15T19:24:10+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2017-03-15T19:24:15+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-03-15T19:24:19+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.5474052336066961
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000176s ]
+
+[ 2017-03-15T19:24:21+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.6860276476945728
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000120s ]
+
+[ 2017-03-15T19:24:25+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `username` = '' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `stu_info` WHERE `schoolnum` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/html/sign/Application/Home/Controller/AccountController.class.php:110) /var/www/html/sign/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/html/sign/Application/Home/Controller/AccountController.class.php:110) /var/www/html/sign/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /var/www/html/sign/Application/Home/Controller/AccountController.class.php:110) /var/www/html/sign/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2017-03-15T19:24:47+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c&random=0.6317191773559898
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000205s ]
+
+[ 2017-03-15T19:24:52+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `username` = '' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `stu_info` WHERE `schoolnum` = '' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-03-15T19:27:29+08:00 ] 127.0.0.1 /sign/index.php?signature=2c2dfa8c91fadf27f1b40adbf20e25e4b786c1f3&timestamp=1489577249&nonce=1565432785&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000158s ]
+
+[ 2017-03-15T19:27:31+08:00 ] 127.0.0.1 /sign/index.php?c=account&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-03-15T19:27:32+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000192s ]
+
+[ 2017-03-15T19:27:33+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2017-03-15T19:27:34+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000187s ]
+
+[ 2017-03-15T19:27:44+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2017-03-15T19:27:57+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `username` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `tec_info` (`username`,`pwd`,`email`,`realname`,`openid`,`logintime`) VALUES ('leon','ad9867586ef7a9ecbb651af11871d2c0','390350493@qq.com','zsf','ofyn8wkleMfMRTCsLMzKNVMD6Joo','1489577277') [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id /var/www/html/sign/Application/Home/Controller/AccountController.class.php 第 117 行.
+
+[ 2017-03-15T19:28:00+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Manage&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+
+[ 2017-03-15T19:28:10+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Manage&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2017-03-15T19:28:47+08:00 ] 127.0.0.1 /sign/index.php?signature=eab2984de140353485dbec323434e51228236ebb&timestamp=1489577326&nonce=49609406&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:28:57+08:00 ] 127.0.0.1 /sign/index.php?signature=c25e967f49fca61be74c28de3576a6be83293598&timestamp=1489577336&nonce=1889067169&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:29:25+08:00 ] 127.0.0.1 /sign/index.php?signature=4d492e4e841c57fd88ebd4134399ce76b0b2af27&timestamp=1489577365&nonce=1751291921&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:31:12+08:00 ] 127.0.0.1 /sign/index.php?signature=50fe8e0450038f66d4501bf6354c6d590a1546d4&timestamp=1489577472&nonce=1230475227&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:31:21+08:00 ] 127.0.0.1 /sign/index.php?signature=22d6598fa09ea376350d264fb4ef4de1cf6db709&timestamp=1489577481&nonce=2091769370&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-03-15T19:31:51+08:00 ] 127.0.0.1 /sign/index.php?signature=5bfd1a0cb76ba2a741b494ef314e43cb0ff25acf&timestamp=1489577511&nonce=2010557228&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:32:33+08:00 ] 127.0.0.1 /sign/index.php?signature=184e9b1b8f9fcb24151e87950e9be60c919823fc&timestamp=1489577552&nonce=1610728554&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:34:19+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2017-03-15T19:34:27+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-03-15T19:34:38+08:00 ] 127.0.0.1 /sign/index.php?signature=be795038f7e84812362a0f9294d7c62a2c1a531d&timestamp=1489577678&nonce=1586533551&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:34:54+08:00 ] 127.0.0.1 /sign/index.php?c=account&a=add&openid=ojpX_jig-gyi3_Q9fHXQ4rdHniQs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-03-15T19:34:55+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000208s ]
+
+[ 2017-03-15T19:35:54+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000154s ]
+
+[ 2017-03-15T19:36:00+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-03-15T19:36:43+08:00 ] 127.0.0.1 /sign/index.php?signature=8391a0c195b442848b0c42fe2e292e9f17149478&timestamp=1489577802&nonce=508025216&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:36:48+08:00 ] 127.0.0.1 /sign/index.php?signature=497c95ceba9465c778cc3f65b3f8f7ef990f27e2&timestamp=1489577808&nonce=1987029621&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:36:55+08:00 ] 127.0.0.1 /sign/index.php?signature=2b82ce415917ca048208f49657e5e8a22d10ea38&timestamp=1489577815&nonce=35506281&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:36:56+08:00 ] 127.0.0.1 /sign/index.php?c=account
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2017-03-15T19:36:57+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000177s ]
+
+[ 2017-03-15T19:37:01+08:00 ] 127.0.0.1 /sign/index.php?signature=0f3dca24db35baaf7dedeed9b59c964b141223b6&timestamp=1489577821&nonce=1300338540&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:37:02+08:00 ] 127.0.0.1 /sign/index.php?c=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-03-15T19:37:06+08:00 ] 127.0.0.1 /sign/index.php?signature=721374737ba3e59739799bbcd2ed581f511a252b&timestamp=1489577826&nonce=1898652074&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:37:11+08:00 ] 127.0.0.1 /sign/index.php?c=email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2017-03-15T19:37:12+08:00 ] 127.0.0.1 /sign/index.php?signature=13e81037484db7b59e7a41926f573206618e8f7f&timestamp=1489577831&nonce=370202078&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:37:23+08:00 ] 127.0.0.1 /sign/index.php?signature=e22b69c9beacb76de7548c65093ab9dc37eaae49&timestamp=1489577843&nonce=1200601475&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:37:37+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-03-15T19:39:21+08:00 ] 127.0.0.1 /sign/index.php?signature=98d13656e178b139d45bf0ea328745bfebe650ed&timestamp=1489577960&nonce=996439268&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-03-15T19:39:22+08:00 ] 127.0.0.1 /sign/index.php?signature=829f9c01bbc3cc15797a1fb649b4be5df863ea4c&timestamp=1489577962&nonce=257255318&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:40:29+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ojpX_jig-gyi3_Q9fHXQ4rdHniQs' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-03-15T19:40:35+08:00 ] 127.0.0.1 /sign/index.php?signature=7c43d0b773cc1c7fd68fbe5ef49e2668abd428f9&timestamp=1489578035&nonce=1968656625&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-03-15T19:40:46+08:00 ] 127.0.0.1 /sign/index.php?c=account&a=add&openid=ojpX_jig-gyi3_Q9fHXQ4rdHniQs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2017-03-15T19:40:47+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000194s ]
+
+[ 2017-03-15T19:41:27+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=doadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `username` = '' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+
+[ 2017-03-15T19:42:28+08:00 ] 127.0.0.1 /sign/index.php?signature=0c6c06b81987d66b3f9a31dfb74b7b43705d9b93&timestamp=1489578148&nonce=250873268&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-03-15T19:43:25+08:00 ] 127.0.0.1 /sign/index.php?signature=9f6ebbcf3067ce42470e8c09d06f58fb2b06329f&timestamp=1489578205&nonce=1542942668&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-03-15T19:44:28+08:00 ] 127.0.0.1 /sign/index.php?signature=ac794329f46a176ebca13a101876b3b0251b2f0d&timestamp=1489578268&nonce=966376805&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion /var/www/html/sign/Application/Home/Controller/ResponsepassiveController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-03-15T19:45:21+08:00 ] 127.0.0.1 /sign/index.php?signature=22686c4e542608273e3fda805c27a8a222260332&timestamp=1489578321&nonce=1224913339&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000190s ]
+
+[ 2017-03-15T19:46:14+08:00 ] 127.0.0.1 /sign/index.php?signature=d24bf51b137ea43b856464769f93f2b4d81f2e99&timestamp=1489578374&nonce=1099123400&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T19:46:41+08:00 ] 127.0.0.1 /sign/index.php?signature=aa995262e7f36988ef2b50e8f273c97fc38ab8d7&timestamp=1489578401&nonce=1922499891&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T19:48:11+08:00 ] 127.0.0.1 /sign/index.php?signature=cd76e441cf62bee9907f0c9da1fba09e7b5dc3cc&timestamp=1489578490&nonce=1181634249&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T19:48:29+08:00 ] 127.0.0.1 /sign/index.php?signature=e7fb9f14f038b5b18fc419998e9e5d780ab9ef27&timestamp=1489578509&nonce=873452729&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T19:48:31+08:00 ] 127.0.0.1 /sign/index.php?signature=5029c56db4232cc208d5730552f8d58040faaab5&timestamp=1489578511&nonce=2061736408&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T19:49:05+08:00 ] 127.0.0.1 /sign/index.php?signature=b6cc1842fc72a2ed9c29aef3b84e9366f5fa400a&timestamp=1489578545&nonce=1734218535&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T19:49:47+08:00 ] 127.0.0.1 /sign/index.php?signature=9d951fb9277ee9b2cfef8ad583c1bd1874b04fca&timestamp=1489578587&nonce=1210208455&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-03-15T19:54:04+08:00 ] 127.0.0.1 /sign/index.php?signature=5310029d502a2fa24a07b4812d6691a92a95ac5a&timestamp=1489578844&nonce=687525580&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-03-15T19:54:05+08:00 ] 127.0.0.1 /sign/index.php?c=account&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2017-03-15T19:54:05+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000189s ]
+
+[ 2017-03-15T19:54:09+08:00 ] 127.0.0.1 /sign/index.php?signature=3d20d415099e68b35214d036d0eb17dcf7abfd95&timestamp=1489578848&nonce=1986987700&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-03-15T19:54:17+08:00 ] 127.0.0.1 /sign/index.php?signature=64d4b621cb84997b9bb8d9c6d29c172896eb9c33&timestamp=1489578857&nonce=930743070&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-03-15T19:57:30+08:00 ] 127.0.0.1 /sign/index.php?signature=c962f0c7775c5bc0f46d16490bf4e12f1d88a048&timestamp=1489579048&nonce=876687592&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-03-15T19:58:05+08:00 ] 127.0.0.1 /sign/index.php?signature=e98f0ec0706d4cadb44ab6bef055e1ca4f293bd8&timestamp=1489579085&nonce=1231487005&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-03-15T19:59:02+08:00 ] 127.0.0.1 /sign/index.php?signature=e6c4d261d426f09cde5cbe75d5905298c590f30a&timestamp=1489579141&nonce=1308038310&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T19:59:56+08:00 ] 127.0.0.1 /sign/index.php?signature=1bbf7ac0ba5f8bb7175a3fc35c98cedd923c9803&timestamp=1489579196&nonce=398278629&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000199s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T19:59:59+08:00 ] 127.0.0.1 /sign/index.php?signature=151b1eff03c67c4b6752f0df1afc39d12e7b61f4&timestamp=1489579199&nonce=1383385056&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T20:00:16+08:00 ] 127.0.0.1 /sign/index.php?signature=ebd35967eb8018879921c6b469b2d0add125efe9&timestamp=1489579216&nonce=467762435&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T20:00:59+08:00 ] 127.0.0.1 /sign/index.php?signature=7648780c80fe08b0b89257b575928717566046fc&timestamp=1489579259&nonce=747049914&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T20:02:07+08:00 ] 127.0.0.1 /sign/index.php?signature=75aa3b5c6774671844aa832cf583fc8d7d78e39a&timestamp=1489579327&nonce=774566280&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T20:02:22+08:00 ] 127.0.0.1 /sign/index.php?signature=a47030745140892e65dc5a58801eadd10f83a89d&timestamp=1489579342&nonce=1289072336&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+
+[ 2017-03-15T20:02:53+08:00 ] 127.0.0.1 /sign/index.php?signature=9fd8e21d6c923f227fdc4a82b9abc43e8d060059&timestamp=1489579373&nonce=748275913&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2017-03-15T20:04:04+08:00 ] 127.0.0.1 /sign/index.php?signature=69f675c5f95e5f7d31be375074e6954850e0df1d&timestamp=1489579443&nonce=993903367&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000172s ]
+
+[ 2017-03-15T20:04:42+08:00 ] 127.0.0.1 /sign/index.php?signature=c598364e001f875c043bea274b8aa6b8a4bcd77d&timestamp=1489579482&nonce=1634605640&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-03-15T20:04:49+08:00 ] 127.0.0.1 /sign/index.php?signature=aeb8ec7967dc17e2815f65e4f5546564b93e5167&timestamp=1489579489&nonce=1623571303&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-03-15T20:05:12+08:00 ] 127.0.0.1 /sign/index.php?signature=48cd451088cd99978dcfc99401d65fde8b6fe18d&timestamp=1489579512&nonce=1034611279&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-03-15T20:06:30+08:00 ] 127.0.0.1 /sign/index.php?signature=89e9c5dbaf043aa074f3d5a09bc3199387861d71&timestamp=1489579589&nonce=1655784428&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: eventkey /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 327 行.
+NOTIC: [8] Undefined variable: eventkey /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 332 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000144s ]
+
+[ 2017-03-15T20:06:50+08:00 ] 127.0.0.1 /sign/index.php?signature=fa56547af8ff17978d9b5090bc862459fcd38326&timestamp=1489579610&nonce=956727331&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-03-15T20:06:53+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=selectClass&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-03-15T20:07:09+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=selectClass&openid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+
+[ 2017-03-15T20:07:12+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=selectClass&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+
+[ 2017-03-15T20:07:29+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=selectClass&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-03-15T20:07:46+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=selectClass&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/1aa4a55af503b37b4a0cb959c957d93b.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-03-15T20:07:47+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2017-03-15T20:11:07+08:00 ] 127.0.0.1 /sign/index.php?signature=2ed151d2bbe8f76f8a65e8c465eb4f90693d8267&timestamp=1489579867&nonce=2099483492&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000190s ]
+
+[ 2017-03-15T20:11:12+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=pushToStudent&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/0d3f7a363e44168d7862360385c8f375.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2017-03-15T20:11:12+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2017-03-15T20:11:21+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=pushToStudent&openid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/0d3f7a363e44168d7862360385c8f375.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-03-15T20:12:42+08:00 ] 127.0.0.1 /sign/index.php?signature=274f191a27e8de8eabdd1b98abc1544766e2ca58&timestamp=1489579962&nonce=111920375&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-03-15T20:12:45+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=pushToStudent&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/0d3f7a363e44168d7862360385c8f375.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000244s ]
+
+[ 2017-03-15T20:12:46+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000115s ]
+
+[ 2017-03-15T20:13:17+08:00 ] 127.0.0.1 /sign/index.php?signature=e8499714926ffc4088392931122284046bdf3c19&timestamp=1489579997&nonce=875401921&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000203s ]
+
+[ 2017-03-15T20:13:19+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=pushToStudent&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000129s ]
+
+[ 2017-03-15T20:14:01+08:00 ] 127.0.0.1 /sign/index.php?signature=c5f5b79ab563d74866e19b810233749c3ff36217&timestamp=1489580041&nonce=852317015&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000182s ]
+
+[ 2017-03-15T20:14:03+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=pushToStudent&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-03-15T20:14:50+08:00 ] 127.0.0.1 /sign/index.php?signature=241e4bab0a3f98ce43c0a9b8b629542c28a0c764&timestamp=1489580090&nonce=755696747&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000151s ]
+
+[ 2017-03-15T20:15:54+08:00 ] 127.0.0.1 /sign/index.php?signature=5122a321306c5c6e3b71068504f6555fcf194e8b&timestamp=1489580153&nonce=2139955405&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-03-15T20:15:56+08:00 ] 127.0.0.1 /sign/index.php?signature=a8db9708f91c26eb460ef7c7784d2c7bb69a25e4&timestamp=1489580156&nonce=1147971205&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 333 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2017-03-15T20:15:59+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+ERR: 模板不存在:./Application/Home/View/Teacher/bindClass.html
+
+[ 2017-03-15T20:16:07+08:00 ] 127.0.0.1 /sign/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 40 行.
+NOTIC: [8] Undefined index: tousername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000133s ]
+
+[ 2017-03-15T20:16:08+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+ERR: 模板不存在:./Application/Home/View/Teacher/bindClass.html
+
+[ 2017-03-15T20:16:08+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+ERR: 模板不存在:./Application/Home/View/Teacher/bindClass.html
+
+[ 2017-03-15T20:16:22+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=bindClass&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/f1b65b0b5ecc46d63685d35427c2c0f6.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-03-15T20:16:23+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000193s ]
+
+[ 2017-03-15T20:21:37+08:00 ] 127.0.0.1 /sign/index.php?signature=794ab2b6365c7e78343f4950211ef9b9e8d61600&timestamp=1489580496&nonce=1053782395&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 338 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-03-15T20:22:20+08:00 ] 127.0.0.1 /sign/index.php?signature=15199517c6ba9bf460bd6ff0c3d8ccaf15ad6ab5&timestamp=1489580540&nonce=1915291444&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2017-03-15T20:22:22+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=pushToStudent&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-03-15T20:23:13+08:00 ] 127.0.0.1 /sign/index.php?signature=e1ebb33791b51f4696c61a8ab65c14644dfd429a&timestamp=1489580593&nonce=2091831359&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+
+[ 2017-03-15T20:23:15+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=pushToStudent&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-03-15T20:23:35+08:00 ] 127.0.0.1 /sign/index.php?signature=f0ef86205cc3bfc6226add425e0cab297282fc93&timestamp=1489580615&nonce=1864817743&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 338 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000183s ]
+
+[ 2017-03-15T20:23:41+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=signWay&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/7a7ebc4c200c27ac866ac7e6195999c0.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000145s ]
+
+[ 2017-03-15T20:23:42+08:00 ] 127.0.0.1 /sign/index.php?m=Home&c=Account&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2017-03-15T20:23:52+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=signWay&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: openid /var/www/html/sign/Application/Runtime/Cache/Home/7a7ebc4c200c27ac866ac7e6195999c0.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-03-15T20:24:26+08:00 ] 127.0.0.1 /sign/index.php?c=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000222s ]
+
+[ 2017-03-15T20:24:40+08:00 ] 127.0.0.1 /sign/index.php?c=test&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+ERR: 非法操作:test
+
+[ 2017-03-15T20:26:32+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=signWay&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-03-15T20:28:17+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=signWay&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-03-15T20:29:03+08:00 ] 127.0.0.1 /sign/index.php?signature=b9d353613fcf62988a641a26992950100dc240f4&timestamp=1489580943&nonce=1420949242&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-03-15T20:29:06+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=signWay&openid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-03-15T20:29:10+08:00 ] 127.0.0.1 /sign/index.php?signature=46685b29810a2c8c2d6ae7f9580a3057380fd88e&timestamp=1489580950&nonce=1062168397&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-03-15T20:29:20+08:00 ] 127.0.0.1 /sign/index.php?signature=e6b6b1e484780d6ba0c8803e59e77461f4faae1c&timestamp=1489580960&nonce=995909185&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-03-15T20:29:26+08:00 ] 127.0.0.1 /sign/index.php?signature=2af0eff26672c8b964cd7c43f3b270f57cc55a1f&timestamp=1489580966&nonce=733761875&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2017-03-15T20:30:43+08:00 ] 127.0.0.1 /sign/index.php?signature=f328337bdf8e7dd5c3ab68d33d27b403044f2f14&timestamp=1489581043&nonce=241486937&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000195s ]
+
+[ 2017-03-15T20:30:53+08:00 ] 127.0.0.1 /sign/index.php?signature=beeebfff4c1ea9dc67c1d80f7c8024583e68dd3f&timestamp=1489581053&nonce=2090317709&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 338 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-03-15T20:30:56+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=signWay&openid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-03-15T20:40:32+08:00 ] 127.0.0.1 /sign/index.php?signature=3ce13cf2e63d6c2ea79afb6353482b22ffebe22a&timestamp=1489581631&nonce=1606107784&openid=ofyn8wkleMfMRTCsLMzKNVMD6Joo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\IndexController::__construct(), called in /var/www/html/sign/ThinkPHP/Common/functions.php on line 681 and defined /var/www/html/sign/Application/Home/Controller/IndexController.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `stu_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `stu_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tec_info` WHERE `openid` = 'ofyn8wkleMfMRTCsLMzKNVMD6Joo' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: fromusername /var/www/html/sign/Application/Home/Controller/RequestController.class.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-03-15T20:40:34+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=pushToStudent&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-03-15T20:45:18+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=pushToStudent&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-03-15T20:45:18+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=pushToStudent&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0005s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000138s ]
+
+[ 2017-03-15T20:45:19+08:00 ] 127.0.0.1 /sign/index.php?c=teacher&a=pushToStudent&openid=&winzoom=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `tec_info` [ RunTime:0.0004s ]
+SQL: SELECT `classids` FROM `tec_info` WHERE `openid` = '' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/sign/Application/Home/Controller/TeacherController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000212s ]
+

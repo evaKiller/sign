@@ -1,0 +1,21 @@
+[ 2017-04-13T10:11:01+08:00 ] 127.0.0.1 /sign/index.php?c=cron
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+ERR: 无法加载控制器:Cron
+
+[ 2017-04-13T10:11:01+08:00 ] 127.0.0.1 /sign/index.php?c=teacher
+NOTIC: [2] mkdir(): File exists /var/www/html/sign/ThinkPHP/Library/Think/Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): File exists /var/www/html/sign/ThinkPHP/Library/Think/Build.class.php 第 67 行.
+NOTIC: [2] mkdir(): File exists /var/www/html/sign/ThinkPHP/Library/Think/Build.class.php 第 67 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000206s ]
+ERR: 无法加载控制器:Teacher
+
